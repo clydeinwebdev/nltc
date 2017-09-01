@@ -1,9 +1,16 @@
-# nltc-client
-NLTC Client Application
+# NLTC
+NLTC Front-End Application
 
+
+### Local Setup
 ```console
-$ express --view=hbs ./
+$ git clone https://github.com/clydeinwebdev/nltc.git
+$ cd nltc
 $ npm install
-$ npm install --save nodemon pg
 $ npm start
+
+Open browser and navigate to http://localhost:3000
 ```
+
+### Online Demo
+* [See link](https://nltc.herokuapp.com/)

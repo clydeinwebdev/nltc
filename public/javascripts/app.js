@@ -36,7 +36,7 @@ class Component extends App{
 		let html = `
 		<div>
 			<nav>
-				<a id="menu" href="#" data-activates="slide-out" class="button-collapse hide"><i class="material-icons">menu</i></a>
+				<!--<a id="menu" href="#" data-activates="slide-out" class="button-collapse hide"><i class="material-icons">menu</i></a>-->
 				<div class="nav-wrapper">
 					<a href="#" class="brand-logo center" style="font-size: 1.0em;">New Lian Tai Commercial</a>
 				</div>
@@ -244,6 +244,8 @@ class Component extends App{
 
 			<div class="row">
 				<div class="col s12">
+					<div>&nbsp;</div>
+					<a style="position:absolute; top:20px; left:15px;" id="menu" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons white-text small">menu</i></a>
 					<div class="card grey lighten-2">
 						<div class="card-content black-text">
 							<span class="card-title">Users</span>
